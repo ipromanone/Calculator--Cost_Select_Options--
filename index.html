@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container_calc">
+        <div class="container">
+            <h3 style="text-align: center;">Калькулятор расчета стоимости ремонта</h3>
+            <p style="text-align: center;">Класс ремонта:
+                <select onchange="calc()" id="type_design">
+                    <option value="0">Выбрать</option>
+                    <option value="5000">Эконом</option>
+                    <option value="7000">Капитальный</option>
+                    <option value="10000">Евро</option>
+                </select>
+            </p>
+            <p style="text-align: center;">Площадь помещения:<input type="text" class="ploschad" id="count" value="0"
+                    onchange="calc()" /></p>
+            <p style="padding-left: 15px;">Требуется демонтаж:<input type="checkbox" onchange="calc()" value="300"
+                    id="is_html" /></p>
+            <p style="text-align: center; font-size: 12px;">*Цена является ознакомительной и может отличаться от
+                фактической</p>
+        </div>
+        <div class="cena">Стоимость ремонта: <span id="result">0</span> RUB.</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

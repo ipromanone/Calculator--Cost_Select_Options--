@@ -1,0 +1,31 @@
+.container_calc {
+    width: 325px;
+	height: auto;	
+	margin: 100px auto;
+    background: #c4aacc;
+	background: linear-gradient(#497ad6, #7ea9bb);
+    outline: 2px solid rgb(7, 214, 204); 
+}
+
+.container {
+    padding: 20px 20px 9px;
+    color: rgb(255, 255, 255);
+
+}
+
+.cena {
+    padding-left: 35px;
+    background-color: #0a51d4;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.ploschad {
+    width: 100px;
+}
+
+#type_design {
+    width: 148px;
+}
